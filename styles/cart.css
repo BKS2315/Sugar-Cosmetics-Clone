@@ -1,0 +1,234 @@
+#Body{
+    background-color: #f5f5f5;
+}
+
+
+#makeupL{
+    display: flex;
+    /* border: 1px solid; */
+    justify-content: space-evenly;
+    align-items: center;
+    width: 8%;
+}
+
+#makeup{
+    display: flex;
+    /* border: 1px solid; */
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#cartDiv{
+    /* border: 1px solid; */
+    display: flex;
+    width: 95%;
+    height: auto;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 20px;
+    gap: 20px;
+}
+#cartDiv1{
+    /* border: 1px solid blue; */
+    width: 50%;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+}
+#cartDiv2{
+    /* border: 1px solid green; */
+    width: 50%;
+    padding-left: 25px;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+.orderSummary{
+    display: flex;
+    gap: 5px;
+}
+#orderSummary{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.orderSummary img{
+    width: 25px;
+}
+.priceDetails{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+.priceDetails img{
+    width: 25px;
+}
+#makeUpDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid; */
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+#rem{
+    width: 20px;
+    height: 20px;
+}
+#rem:hover{
+   
+    cursor: pointer;
+    width: 21px;
+    height: 21px;
+}
+#makeupIMG{
+    width: 70px;
+}
+#cartBox{
+    gap: 30px !important;
+    
+}
+#boxx img{
+    width: 290px;
+}
+#boxx{
+    width: 350px;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    color: gray;
+    align-items: center;
+    margin-left: 550px;
+    margin-top: 100px;
+    
+}
+#boxx button{
+    background-color: #fc2779;
+    color: white;
+    border: none;
+    width: 50%;
+    height: 49px;
+    border-radius: 7px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+#boxx p{
+    margin-left: 25px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+#promo{
+    color: #fc2779;
+}
+#offers{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.pricedetails{
+    display: flex;
+    gap: 10px;
+}
+.pricedetails img{
+    width: 25px;
+}
+#Dis11{
+    display: flex;
+    width: 25%;
+    gap: 10px;
+    /* border: 1px solid; */
+    margin-bottom: 10px;
+}
+#Dis21{
+    display: flex;
+    /* border: 1px solid; */
+    width: 25%;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+#Dis1{
+    display: flex;
+}
+#Dis2{
+    display: flex;
+}
+#priceDis{
+    /* border: 1px solid; */
+    background-color: white;
+    width: 90%;
+    margin-top: 10px;
+    color: gray;
+    padding-left: 18px;
+    
+}
+#Dis31{
+    display: flex;
+    /* border: 1px solid; */
+    width: 25%;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+#Dis3{
+    display: flex;
+    /* border: 1px solid; */
+}
+#discount{
+    /* border: 1px solid; */
+    width: 10%;
+}
+#Dis41{
+    display: flex;
+    /* border: 1px solid; */
+    width: 25%;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+#Dis4{
+    display: flex;
+    /* border: 1px solid; */
+}
+#delInfo{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 32px;
+    border: 1px solid;
+    margin-top: 20px;
+    align-items: center;
+}
+#delInfoBTN{
+    width: 325px;
+    height: 32.5px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#delInfo a{
+    color: gray;
+    font-size: 13px;
+    text-decoration: underline;
+}
+#payable{
+    color: black;
+    font-weight: bold;
+}
+
+#delInfoBTN1{
+    width: 325px;
+    height: 32.5px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+

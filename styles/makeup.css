@@ -1,0 +1,105 @@
+#Body{
+    background-color: #f5f5f5;
+}
+#makeIMG{
+    width: 100%;
+  
+}
+#makeIMG img{
+    width: 100%;
+    
+}
+#makeupL{
+    display: flex;
+    /* border: 1px solid; */
+    justify-content: space-between;
+    align-items: center;
+    width: 8%;
+}
+#makeupR{
+    display: flex;
+    /* border: 1px solid; */
+    justify-content: space-between;
+    align-items: center;
+    width: 8%;
+}
+#makeup{
+    display: flex;
+    /* border: 1px solid; */
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#sort{
+    display: flex;
+    /* border: 1px solid; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+#makeupBox{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 30px;
+}
+#makeUpDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white !important;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+#makeUpDiv1{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    background-color: white !important;
+    padding-bottom: 10px;
+}
+#makeupIMG{
+    width: 200px;
+    height: 290px;
+    margin-bottom: 10px;
+}
+#strIMG{
+    width: 25px;
+}
+#nameProd{
+    color: gray;
+}
+#priceProd{
+    margin-bottom: -10px;
+    margin-top: 25px;
+    font-size: 15px;
+}
+#makeUpDiv p{
+    font-size: 15px;
+}
+#makeUpDiv:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+#makeUpDiv2{
+    display: flex;
+   visibility: hidden;
+    /* position: relative;
+    z-index: 1; */
+    border: 1px solid;
+    width: 300px;
+    height: 25px;
+    justify-content: space-between;
+    /* top: 1100px; */
+}
+#selectShade{
+    background-color: #212529;
+    color: white;
+    width: 85%;
+    border: none;
+}

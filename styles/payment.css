@@ -1,0 +1,25 @@
+#payMethods1{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid gray;
+    margin-top: 10px;
+    cursor: pointer;
+}
+#pm1{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+#payMethods{
+    height: auto;
+}
+
+#delInfoBTN2{
+    width: 325px;
+    height: 32.5px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="./styles/index.css">
+<link rel="stylesheet" href="./styles/delivery.css">
+<link rel="stylesheet" href="./styles/cart.css">
+<script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+<body>
+    <div id="NAVBAR"></div>
+
+    <div id="cartDiv">
+        <div id="cartDiv1">
+
+            <div class="pricedetails">
+                <img src="https://in.sugarcosmetics.com/desc-images/PriceDetails.svg" alt="">
+                <p>Price Details</p>
+            </div>
+
+            <div id="priceDis">
+                <div id="Dis1">
+                    <div id="Dis11">
+                        <img src="https://in.sugarcosmetics.com/desc-images/CartSubtotal.svg" alt="">
+                        <p >Cart Sub Total:</p>
+                    </div>
+                    <p id="subtotal">665</p>
+                </div>
+                <div id="Dis2">
+                    <div id="Dis21">
+                        <img src="https://in.sugarcosmetics.com/desc-images/Shipping_Cost.svg" alt="">
+                        <p >Shipping Cost:</p>
+                    </div>
+                    <p id="Shipping">665</p>
+                </div>
+                <div id="Dis3">
+                    <div id="Dis31">
+                        <img src="https://in.sugarcosmetics.com/desc-images/Discount.svg" alt="">
+                        <p >Discount Applied:</p>
+                    </div>
+                    <p id="discount">₹ 0.00</p>
+                </div>
+                <div id="Dis4">
+                    <div id="Dis41">
+                        <img src="https://in.sugarcosmetics.com/desc-images/AmountPayable.svg" alt="">
+                        <p >Amount Payable:</p>
+                    </div>
+                    <p id="payable">665</p>
+                </div>
+            </div>
+
+
+
+            <div id="orderSummary">
+                <div class="orderSummary">
+                    <img src="https://in.sugarcosmetics.com/desc-images/shopping_cart.svg" alt="">
+                    <p>Order Summary</p>
+                </div>
+                <div>
+                    <p id="cartTotal"></p>
+                </div>
+            </div>
+            <div id="cartBox"></div>
+        </div>
+
+
+        <div id="cartDiv2">
+            <div id="priceDetails">
+                <div class="priceDetails">
+                    <img src="https://in.sugarcosmetics.com/desc-images/CustomerInformation.svg" alt="">
+                    <p>Contact Information</p>
+                </div>
+                
+                
+            </div>
+
+            <div id="contactInfoDiv">
+                <div id="fullNameNnum">
+                    <p id="fullName"></p>
+                    <p id="phoneNumber"></p>
+                </div>
+
+                <div id="userEmail">
+
+                </div>
+
+                <div id="addNewAddress">
+                    <p id="txtDelAdd">Delivery Address</p>
+                    <button>+ Add New Address</button>
+                </div>
+
+                <div id="displayAddress"> 
+                    <p id="recName"></p>
+                    <p id="recmob"></p>
+                    <p id="recln1"></p>
+                    <p id="recln2"></p>
+                    
+                </div>
+
+
+
+
+                <div id="delInfo">
+                    <a href="makeup.html"><---Offers and Pricing</a>
+                        <a href="delivery.html">
+                            
+                            <button id="delInfoBTN1">Delivery Information</button>
+                        </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="addressForm">
+
+        <div id="addrHead">
+            <img src="https://in.sugarcosmetics.com/desc-images/Add_Address.svg" alt="">
+            <p>Add new delivery address</p>
+        </div>
+
+        <div id="addform1">
+            <div>
+               <p> Full Name</p>
+                <input type="text" id="fullN">
+            </div>
+            <div>
+                <p> Phone Number</p>
+                <input type="number" id="PhOnE">
+            </div>
+
+        </div>
+
+        <h5>Address</h5>
+
+        <div id="addform2">
+            <input type="text" id="addln1" placeholder="Address Line 1"><br>
+            <input type="text" id="addln2" placeholder="Address Line 2"><br>
+            <input type="text" id="pin" placeholder="Zipcode/Pincode"><br>
+            <input type="text" id="country" placeholder="Country"><br>
+            <input type="text" id="state" placeholder="State/Province"><br>
+            <input type="text" id="city" placeholder="City"><br>
+
+        </div>
+
+        <div id="addform3">
+            <button id="addressSave">Save and use this Address</button>
+            <button id="cancelAddress">Cancel</button>
+        </div>
+       
+    </div>
+
+    <div id="Footer"></div>
+</body>
+</html>
+<script src="./scripts/delivery.js" type="module"></script>
