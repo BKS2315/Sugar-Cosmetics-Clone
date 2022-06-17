@@ -76,7 +76,7 @@ let append = ()=>{
 
         let rem = document.createElement("img");
         rem.setAttribute("id","rem")
-        rem.src = "https://cdn-icons.flaticon.com/png/128/484/premium/484611.png?token=exp=1654949850~hmac=96b0acb738ed0545c48469d25caf5000"
+        rem.src = "images/mass-delete-wordpress-comments.png";
         rem.addEventListener("click",()=>{
             Delete(arg);
         })
