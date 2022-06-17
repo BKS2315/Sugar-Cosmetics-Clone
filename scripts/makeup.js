@@ -10,8 +10,10 @@ document.getElementById("Footer").innerHTML = footer();
 
 let userD = JSON.parse(localStorage.getItem("accDetails"));
 console.log('userD:', userD)
-document.getElementById("username").innerText = `Hi,${userD.firstName}` ;
-
+if(userD){
+    document.getElementById("username").innerText = `Hi,${userD.firstName}` ;
+    
+}
 
 
 let makeup_arr=[

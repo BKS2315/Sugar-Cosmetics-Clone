@@ -53,9 +53,12 @@ let savedAddress = JSON.parse(localStorage.getItem("address"));
 console.log('savedAddress:', savedAddress)
 
 let userD = JSON.parse(localStorage.getItem("accDetails"));
-
-document.getElementById("recName").innerText = userD.firstName+" "+ userD.lastName;
-document.getElementById("recmob").innerText =userD.mob;
+if(userD){
+    
+    document.getElementById("recName").innerText = userD.firstName+" "+ userD.lastName;
+    document.getElementById("recmob").innerText =userD.mob;
+    
+}
 document.getElementById("recln1").innerText = `${savedAddress.add1},${savedAddress.add2}` ;
 document.getElementById("recln2").innerText = `${savedAddress.city},${savedAddress.state},${savedAddress.pin},${savedAddress.country},`;
 
@@ -173,11 +176,14 @@ let accountDetailsSave = ()=>{
 }
 let userDe = JSON.parse(localStorage.getItem("accDetails"));
 console.log('userD:', userDe)
-document.getElementById("username").innerText = `Hi,${userDe.firstName}` ;
+if(userDe){
+    document.getElementById("username").innerText = `Hi,${userDe.firstName}` ;
+    
+    document.getElementById("fullName").innerText = `Full Name- ${userDe.firstName } ${userDe.lastName} `;
+    document.getElementById("phoneNumber").innerText = `Phone Number- ${userDe.mob } `
+    document.getElementById("userEmail").innerText = `Email- ${userDe.email } `;
+}
 
-document.getElementById("fullName").innerText = `Full Name- ${userDe.firstName } ${userDe.lastName} `;
-document.getElementById("phoneNumber").innerText = `Phone Number- ${userDe.mob } `
-document.getElementById("userEmail").innerText = `Email- ${userDe.email } `;
 
 
 let append = ()=>{

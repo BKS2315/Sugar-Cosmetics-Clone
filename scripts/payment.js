@@ -129,7 +129,10 @@ let accountDetailsSave = ()=>{
 }
 let userD = JSON.parse(localStorage.getItem("accDetails"));
 console.log('userD:', userD)
-document.getElementById("username").innerText = `Hi,${userD.firstName}` ;
+if(userD){
+    document.getElementById("username").innerText = `Hi,${userD.firstName}` ;
+    
+}
 
 // document.getElementById("fullName").innerText = `Full Name- ${userD.firstName } ${userD.lastName} `;
 // document.getElementById("phoneNumber").innerText = `Phone Number- ${userD.mob } `
